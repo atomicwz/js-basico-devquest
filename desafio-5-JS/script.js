@@ -4,9 +4,8 @@ var y = 2
 
 
 
-while(x <= 10){
+for(x; x <= 10;x++ ){
 
-x++
 
 x * y
 
