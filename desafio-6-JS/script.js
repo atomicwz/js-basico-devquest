@@ -1,27 +1,27 @@
 
-var numero1 = prompt('Digite um número')
-var numero2 = prompt('Digite outro número')
+var numero1 = parseInt(prompt('Digite um número'))  
+var numero2 = parseInt(prompt('Digite outro número')) 
 
 
-function somar(n1, n2){
+function somar(){
     let soma = numero1 + numero2
-    return 'O resultado da soma é: ' + soma
+    return 'O resultado da soma é: ' + soma 
 }
 console.log(somar())
 
-function subtrair (n1, n2){
+function subtrair (){
     let subtracao = numero1 - numero2
     return 'O resultado da subtração é: ' + subtracao
 }
 console.log(subtrair())
 
-function multiplicar(n1, n2){
+function multiplicar(){
     let multiplicacao = numero1 * numero2
     return 'O resultado da multiplicação é: ' + multiplicacao
 }
 console.log(multiplicar())
 
-function dividir(n1, n2){
+function dividir(){
     let divisao = numero1 / numero2
     return 'O resultado da divisão é: ' + divisao
 }
